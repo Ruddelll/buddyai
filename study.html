@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Study Tools</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .tools {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .tool {
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .tool:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .tool h2 {
+    color: #555;
+  }
+  .tool p {
+    color: #777;
+  }
+  @media screen and (max-width: 768px) {
+    .tools {
+      flex-direction: column;
+    }
+    .tool {
+      margin-bottom: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Interactive Study Tools</h1>
+  <div class="tools">
+    <div class="tool">
+      <h2>Flashcards</h2>
+      <p>Engage in interactive flashcards.</p>
+      <a href="#">Start Learning</a>
+    </div>
+    <div class="tool">
+      <h2>Quizzes</h2>
+      <p>Test your knowledge with quizzes.</p>
+      <a href="#">Take Quiz</a>
+    </div>
+    <div class="tool">
+      <h2>Practice Tests</h2>
+      <p>Prepare for exams with practice tests.</p>
+      <a href="#">Practice Now</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
